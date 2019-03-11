@@ -2,7 +2,7 @@
 - hosts: all
   vars:
       http_port: 80
-          max_clients: 3
+          max_clients: 300
 	    remote_user: root
 	      tasks:
 	        - name: ensure nginx is at the latest version
